@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="description" content="Personal Blog : Adriano Rezena">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=">
+
+    <title>Personal Blog</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="">View on GitHub</a>
+
+          <h1 id="project_title">Personal Blog</h1>
+          <h2 id="project_tagline">Adriano Rezena</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Noções gerais sobre coleções em Delphi</h1>
+    <p class="post-meta">
+      <time datetime="2017-05-05T22:21:53-03:00" itemprop="datePublished">
+        
+        May 5, 2017
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Usadas amplamente em qualquer tipo de projeto, as listas evoluíram bastante nas últimas versões do Delphi, principalmente com a adição do Generics.</p>
+
+<p>Hoje temos vários tipos de listas. Abaixo temos uma tabela com os tipos mais comuns e suas principais características:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Collection</strong></td>
+      <td>É um grupo de itens sem qualquer ordem. Itens podem ser inseridos ou removê-los, mas não ordenados.</td>
+    </tr>
+    <tr>
+      <td><strong>Dictionary</strong></td>
+      <td>Conhecida também como “hash table” por gerar um hash da chave para otimizar sua velocidade, representa uma coleção de dados em par, do tipo chave-valor, onde tanto a chave como o valor podem ser de qualquer tipo.</td>
+    </tr>
+    <tr>
+      <td><strong>List</strong></td>
+      <td>Um List é uma estrutura de dados que semelhante ao array, apesar de agregar muito mais funcionalidades que um array. Possui um índice que começa de zero e que permite “encontrar” cada item da lista. Os itens podem ser ordenados e a ordem é você quem define.</td>
+    </tr>
+    <tr>
+      <td><strong>Queue</strong></td>
+      <td>Uma queue é uma estruta de dados do tipo FIFO (First In, First Out), onde os primeiros itens que foram adicionados, são os primeiros a sair.</td>
+    </tr>
+    <tr>
+      <td><strong>Stack</strong></td>
+      <td>Uma stack é uma estrutura de dados do tipo FILO (First In, Last Out), onde como o próprio nome diz, é uma pilha. É fácil assemelhar isto a uma pilha de pratos. O último prato que foi colocado sobre a pilha, tem que ser o primeiro prato a sair.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Todos esses tipos de listas, podemos encontrar na unit System.Generics.Collections.</p>
+
+<p>Os tipos mais comuns são:</p>
+<ul>
+  <li>TList<T></T></li>
+  <li>TQueue<T></T></li>
+  <li>TStack<T></T></li>
+  <li>TDictionary&lt;TKey, TValue&gt;</li>
+  <li>TObjectList<T></T></li>
+  <li>TObjectQueue<T></T></li>
+  <li>TObjectStack<T></T></li>
+  <li>TObjectDictionary&lt;TKey, TValue&gt;</li>
+  <li>TThreadList<T></T></li>
+  <li>TThreadedQueue<T></T></li>
+</ul>
+
+<p>Todos os tipos acima, com exceção dos últimos dois, podem ser iterados através de um for..in.</p>
+
+<p>Nos próximos posts teremos exemplos de cada tipo citado acima.</p>
+
+
+  </div>
+
+  
+</article>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
