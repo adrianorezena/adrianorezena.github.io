@@ -1,54 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-08T22:49:05-03:00</updated><id>http://localhost:4000/</id><title type="html">Personal Blog</title><subtitle>Adriano Rezena</subtitle><entry><title type="html">Noções gerais sobre coleções em Delphi</title><link href="http://localhost:4000/jekyll/update/2017/05/05/nocoes-gerais-sobre-colecoes-em-delphi.html" rel="alternate" type="text/html" title="Noções gerais sobre coleções em Delphi" /><published>2017-05-05T22:21:53-03:00</published><updated>2017-05-05T22:21:53-03:00</updated><id>http://localhost:4000/jekyll/update/2017/05/05/nocoes-gerais-sobre%20colecoes-em-delphi</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/05/05/nocoes-gerais-sobre-colecoes-em-delphi.html">&lt;p&gt;Usadas amplamente em qualquer tipo de projeto, as listas evoluíram bastante nas últimas versões do Delphi, principalmente com a adição do Generics.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-05T22:42:42-03:00</updated><id>http://localhost:4000/</id><title type="html">Adriano Rezena</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/05/05/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-05-05T22:21:53-03:00</published><updated>2017-05-05T22:21:53-03:00</updated><id>http://localhost:4000/jekyll/update/2017/05/05/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/05/05/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;Hoje temos vários tipos de listas. Abaixo temos uma tabela com os tipos mais comuns e suas principais características:&lt;/p&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Tipo&lt;/th&gt;
-      &lt;th&gt;Descrição&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Collection&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;É um grupo de itens sem qualquer ordem. Itens podem ser inseridos ou removê-los, mas não ordenados.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Dictionary&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Conhecida também como “hash table” por gerar um hash da chave para otimizar sua velocidade, representa uma coleção de dados em par, do tipo chave-valor, onde tanto a chave como o valor podem ser de qualquer tipo.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;List&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Um List é uma estrutura de dados que semelhante ao array, apesar de agregar muito mais funcionalidades que um array. Possui um índice que começa de zero e que permite “encontrar” cada item da lista. Os itens podem ser ordenados e a ordem é você quem define.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Queue&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Uma queue é uma estruta de dados do tipo FIFO (First In, First Out), onde os primeiros itens que foram adicionados, são os primeiros a sair.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Stack&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Uma stack é uma estrutura de dados do tipo FILO (First In, Last Out), onde como o próprio nome diz, é uma pilha. É fácil assemelhar isto a uma pilha de pratos. O último prato que foi colocado sobre a pilha, tem que ser o primeiro prato a sair.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;p&gt;Todos esses tipos de listas, podemos encontrar na unit System.Generics.Collections.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Os tipos mais comuns são:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;TList&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-  &lt;li&gt;TQueue&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-  &lt;li&gt;TStack&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-  &lt;li&gt;TDictionary&amp;lt;TKey, TValue&amp;gt;&lt;/li&gt;
-  &lt;li&gt;TObjectList&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-  &lt;li&gt;TObjectQueue&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-  &lt;li&gt;TObjectStack&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-  &lt;li&gt;TObjectDictionary&amp;lt;TKey, TValue&amp;gt;&lt;/li&gt;
-  &lt;li&gt;TThreadList&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-  &lt;li&gt;TThreadedQueue&lt;T&gt;&lt;/T&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Todos os tipos acima, com exceção dos últimos dois, podem ser iterados através de um for..in.&lt;/p&gt;
-
-&lt;p&gt;Nos próximos posts teremos exemplos de cada tipo citado acima.&lt;/p&gt;</content><author><name></name></author><summary type="html">Usadas amplamente em qualquer tipo de projeto, as listas evoluíram bastante nas últimas versões do Delphi, principalmente com a adição do Generics.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
